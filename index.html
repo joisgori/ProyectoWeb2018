@@ -31,10 +31,26 @@
                         Recordatorio:
                             Usar propiedades semánticas para juntar los capturadores de texto y vincularlos a los botones respectivos...
                 -->  
-                <p>Lado A</p>        
+                <form>
+                <fieldset>
+                        <legend>Login</legend>
+                        <label>Usuario</label>:<input name="Usuario" placeholder="Username" type="text" maxlength="9" required  pattern="[A-Za-z]+"/>
+                        <br>
+                        <br>
+                        <label for = "password">Password:</label>
+					<input type = "password" name = "password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title = "Debe contener un numero, una minuscula, una mayuscula y un min de 8 letras" required>
+                        <br>
+                        <br>
+                        <input type="submit" value="Login" ><br>
+                        
+                        <a href="">Crear cuenta</a> <br>
+                        <a href="">He olvidado mi contraseña</a>
+                    </fieldset>
+                </form>
+                    
             </article>
             <article class="Flex">
-                <p>LadoB</p>
+                <p>Video</p>
                 <video>
                     <!--Acá insertaremos el vídeo introductorio cuando lo tengamos, sino en el peor de los casos lo cambiamos por un simple
                     div donde expliquemos la idea y objetivo de la red con texto plano xdd-->
