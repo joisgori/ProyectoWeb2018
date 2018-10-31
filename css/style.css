@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+
+header{
+    border: 1px solid black;
+    padding:0px;
+    margin: 0px;
+    
+}
+
+main{
+    border: 1px solid black;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+  
+    
+}
+.Flex{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+footer{
+    border: 1px solid black;
+}
