@@ -1,12 +1,47 @@
-.logoIconPage{
-    height: 15vh;
-    width: 15vh;
+*{
+    margin: 0;
+    border:0;
 }
+
+.content{
+    margin: 2em;
+    border-radius: 50%;
+    border: double;
+}
+
+
+
+.logoIconPage{
+    height: 20vh;
+    width: 20vh;
+    border: dotted;
+    border-radius: 100%;
+}
+
+.logoIconPage:hover{
+    transition: 0.5s;
+    height: 50vh;
+    width: 50vh;
+}
+
 
 .commit{
     background-color: blue;
     width: 100%;
     height: 100%;
+}
+.commit>.commit{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    margin-left: 1em;
+    margin-top: -1;
+    border-left: double;
+    visibility: hidden;
+}
+.commit:hover>.commit {
+    margin-top: 0;
+    visibility: visible;
 }
 
 .music_bank{
@@ -17,7 +52,21 @@
 }
 
 .content_post{
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     background-color: blueviolet;
+}
+
+.content_commit{
+    margin: 1em;
+    border-radius: 1em;
+    background-color: black;
+}
+
+.content_commit *{
+    text-align: center;
 }
 
 .body_content{
@@ -26,4 +75,8 @@
 
 .nav_content{
     display: flex;
+}
+
+.reaction_post{
+    background-color: crimson;
 }
