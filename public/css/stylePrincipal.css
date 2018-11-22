@@ -1,11 +1,13 @@
 *{
     margin: 0;
+    padding: 0;
     border:0;
+    
 }
 
 .content{
-    margin: 2em;
-    border-radius: 50%;
+    margin: 2%;
+    padding:1%;
     border: double;
 }
 
@@ -26,22 +28,27 @@
 
 
 .commit{
+    
     background-color: blue;
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    text-align: center;
+    height: fit-content;
 }
 .commit>.commit{
     background-color: blue;
-    width: 100%;
-    height: 100%;
     margin-left: 1em;
-    margin-top: -1;
+    height: 0;
+    width: 0;
+    /*margin-top: -1;
+    visibility: hidden;*/
     border-left: double;
-    visibility: hidden;
+    color: rgba(255, 255, 255, 0);
+    
 }
 .commit:hover>.commit {
-    margin-top: 0;
-    visibility: visible;
+    width: fit-content;
+    height: fit-content;
+    color: black;
 }
 
 .music_bank{
@@ -52,10 +59,7 @@
 }
 
 .content_post{
-    border-top-right-radius: 1em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-radius: 1em;  
     background-color: blueviolet;
 }
 
