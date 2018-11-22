@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 *{
     text-align: center;
 }
@@ -31,16 +29,14 @@ main{
     height: 500px;
     
 }
-.Flex fieldset{
-    
-}
+
 
 footer{
     border: 1px solid black;
     color: rgb(167, 157, 157);
-    background-color: black;}
+    background-color: black;
+}
 
->>>>>>> 47badf2c38cea22f183be80988e04edbf429ac16
 *{
     text-align: center;
 }
@@ -72,18 +68,12 @@ main{
     height: 500px;
     
 }
-.Flex fieldset{
-    
-}
+
 
 footer{
     border: 1px solid black;
     color: rgb(167, 157, 157);
     background-color: black;
-<<<<<<< HEAD
 }
 
-=======
 
-}
->>>>>>> 47badf2c38cea22f183be80988e04edbf429ac16
