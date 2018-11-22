@@ -1,0 +1,17 @@
+header{
+    border: 1px solid black;
+    padding:0px;
+    margin: 0px;
+    color: rgb(167, 157, 157);
+    background-color: black;
+    text-align: center;
+
+}
+footer{
+    border: 1px solid black;
+    color: rgb(167, 157, 157);
+    background-color: black;
+}
+body{
+    background: rgb(167, 157, 157) ;
+}
