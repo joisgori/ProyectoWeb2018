@@ -1,98 +1,98 @@
-<!DOCTYPE html> 
-	<html lang="en"> 
-	<head> 
-	<meta charset="UTF-8"> 
-	<title>Creacion cuenta</title> 
-	<!-- Latest compiled and minified CSS --> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
-	
-	<!-- jQuery library --> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-	
-	<!-- Latest compiled JavaScript --> 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> 
-	<link rel ="stylesheet" href="css/stryleform.css">
-	</head>
-	<header>
-		<H1>Abre una cuenta y ponte en contacto con tus amigos y la musica</H1> <button type="button" class="btn btn-primary"><a href="index.html">REGRESAR</a><---</button>
-		<br>
-		<hr>
-	</header>
-	<body> 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/Form.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="grid">
+                <h1>
+                    BFriends
+                </h1>
+                <h2>
+                    Feel The music in you.
+                </h2>
 
-	<form action="formulario.html" method="post"> 
-	<fieldset> 
-	<div class="panel panel-primary">
-	<div class="panel-heading"> 
-	<i class="fas fa-user-plus"></i> Agregar nueva cuenta</div> 
-	<div class="panel-body"> 
-	<fieldset> 
-	<div class="form-group col-md-6"> 
-	<label>Nombre</label> 
-	<div class="input-group"> 
-	<div class="input-group-addon"> 
-	<i class="fa fa-user"></i> 
-	</div> 
-	<input type="text" class="form-control" placeholder="Ingrese Nombre" aria-describedby="basic-addon1" required > 
-	</div> 
-	</div> 
-	<div class="form-group col-md-6"> 
-	<label>Apellido</label> 
-	<div class="input-group"> 
-	<div class="input-group-addon"> 
-	<i class="fa fa-user"></i> 
-	</div> 
-	<input type="text" class="form-control" placeholder="Ingrese su apellido" aria-describedby="basic-addon1" required> 
-	</div> 
-	</div> 
+        
+    </div>
+    <div class="grid">
+        <h3>Formulario</h3>
+    </div> 
+    <div class="grid"> 
+        <p>
+            Inserte Logo Aqui
+        </p>
+    </div>
+    </header>
+
+    <main>
+        <section class="container">
+            
+                <form>
+                    <fieldset class="Flex">
+                        <legend>Formulario</legend>
+                        <label>Name</label>:<input name="Name" placeholder="John" type="text" maxlength="9" required  pattern="[A-Za-z]+"/>
+
+                        <br><br>
+
+                        <label>Lastname</label>:<input name="Lastname" placeholder="Doe" type="text" maxlength="9" required  pattern="[A-Za-z]+"/>
+                        <br><br>
+
+                        <label for = "fechaNac">Birthday:</label><input type = "date" name = "fechaNac" max="2000-01-01"  required>
+
+                        <br><br>
+
+                        <label>E-mail:</label><input name="email" type="email" placeholder="something@domain.com" required>
+                   
+                        <p>Ingrese foto de perfil</p>
+
+                        
+                            <label for = "password">Password:</label>
+                            <input type = "password" name = "password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title = "Debe contener un numero, una minuscula, una mayuscula y un min de 8 letras" required>
+
+                        <br><br>
+                        
+                            <label for = "verpassword">Verify Password:</label>
+                            <input type = "password" name = "verpassword" name = "password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title = "Debe contener un numero, una minuscula, una mayuscula y un min de 8 letras" required>
+                            <br><br>
+                            Genero <select>
+                                <option>M</option>
+                                <option>F</option>
+                            
+      </select>
+      <br><br>
+
+      <label>Pregunta de Seguridad:</label>
+      <select name="City" required>
+        <option value="1">¿Cuál es tu color favorito?</option>
+        <option value="2">¿Cuál es el nombre de tu primera mascota?</option>
+        <option value="3">¿Cuál es el mes de cumpleaños de tu madre?</option>
+        <option value="4">¿Cuál es el país que siempre has querido visitar?</option>
+      </select>
+
+      <label>Respuesta:</label>
+      <input name"answer" type="text" required  pattern="[A-Za-z]+">
 	
-	<div class="form-group col-md-6"> 
-	<label>Correo Electronico</label> 
-	<div class="input-group"> 
-	<div class="input-group-addon"> 
-	<i class="fa fa-at"></i> 
-	</div> 
-	<input type="email" class="form-control" placeholder="Ingrese su correo electronico" aria-describedby="basic-addon1" data-validation="required" data-validation-error-msg="rellene este campo"> 
-	</div> 
-	</div> 
-	<div class="form-group col-md-6"> 
-	<label>Contraseña</label> 
-	<div class="input-group"> 
-	<div class="input-group-addon"> 
-	<i class="fa fa-key"></i> 
-	</div> 
-	<input type="password" class="form-control" placeholder="Nueva contraseña" aria-describedby="basic-addon1" required > 
-	</div> 
-	</div> 
-	<div class="form-group col-md-6"> 
-	<label>Fecha de nacimiento</label> 
-	<div class="input-group"> 
-	<div class="input-group-addon"> 
-	<i class="fa fa-calendar"></i> 
-	</div> 
-	<input type="date" class="form-control" placeholder="Ingrese su fechga de nacimiento" aria-describedby="basic-addon1" required> 
-	</div> 
-	</div> 
-	
-	
-	<div class="col-md-6"> 
-	<span class="input-group-btn"> 
-	<button input type="submit" type="button" class="btn btn-success btn-lg btn-block"> 
-	Registrarte </button> 
-		</span>
-                    </div>
-                </fieldset>
-            </div>
+                        
+      
+                    </fieldset>
+                    <input type="submit" value="Send" >
+                    <input type="reset" value=”Cancel”>
+                    <button><a href="../HTML/Index.html">Volver</a></button>
+                    
+                </form>
+            
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>copyright: Luis, Diego, Josué, Javier --- proyecto web 2018</p>
         </div>
-    </fieldset>
-</form>
-	<footer>
-		<div>
-			<p>copyright: Luis, Diego, Josué, Javier --- proyecto web 2018 </p>
-
-		</div>
-	</footer>
-	</body> 
-	</html>
-
+</footer>
+</body>
+</html>

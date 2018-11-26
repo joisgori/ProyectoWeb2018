@@ -1,13 +1,33 @@
 *{
     text-align: center;
+}   
+
+.header{
+        display: grid;
+        border: 1px solid black;
+        padding:0px;
+        margin: 0px;
+        color: rgb(167, 157, 157);
+        background-color: rgb(51, 49, 77);
+        justify-content: space-between;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 60% 40%;
+        
+    
 }
 
-header{
+.container{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.Flex{
+    margin: 0%;
+    padding: 0%;
     border: 1px solid black;
-    padding:0px;
-    margin: 0px;
-    color: rgb(167, 157, 157);
-    background-color: black;
+    width: 500px;
+    height: 200px; /* para cambiar la altura de todo el main*/
     
 }
 
@@ -16,64 +36,9 @@ main{
     padding: 10px;
     background-color: rgb(141, 150, 145);
 }
-.contenedor {
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
-  
-    
-}
-.Flex{
-    border: 1px solid black;
-    width: 500px;
-    height: 500px;
-    
-}
-.Flex fieldset{
-    
-}
-
-footer{
-    border: 1px solid black;
-    color: rgb(167, 157, 157);
-    background-color: black;}
-
-*{
-    text-align: center;
-}
-
-header{
-    border: 1px solid black;
-    padding:0px;
-    margin: 0px;
-    color: rgb(167, 157, 157);
-    background-color: black;
-    
-}
-
-main{
-    border: 1px solid black;
-    padding: 10px;
-    background-color: rgb(141, 150, 145);
-}
-.contenedor {
-    display: flex;
-    flex-direction: row ;
-    justify-content: center;
-  
-    
-}
-.Flex{
-    border: 1px solid black;
-    width: 500px;
-    height: 500px;
-    
-}
-
 
 footer{
     border: 1px solid black;
     color: rgb(167, 157, 157);
     background-color: black;
-
 }
